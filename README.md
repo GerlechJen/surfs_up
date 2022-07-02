@@ -19,14 +19,29 @@ Continuing further with the analysis, temperature data for the months of June an
 ![image2](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_temp_statistics.png)
 
 * From the analysis:
-* There were more number of temperatures recorded for the month of june (1700) than the month of december (1517).
+* There is a relatively small difference of about 3.9 °F between the average temperature in June and December.
 * The average temperature recorded for the month of June(74.944) was higher than the average temperature recorded for December(71.042). 
-*  The maximum temperature recorded for the month of June(85) was higher than the maximum temperature recorded for December(83).
+* The highest temperatures recorded in the two months did not go beyond 85°F.
 
 ## Summary 
 
 Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
-1. I could perform additional query on the precipitation recorded for the months of June and December)
-2. I could also perform additional query on the temperatures recorded for the months of june and december for each station.
+The standard deviation for the temperature recordings for the month of june was 3.257  while the standard deviation for the month of December was 3.746. This means that the temperature measurements for December are more spread out or vary more. While the temperature measurements for June are closer together in value.
+
+
+
+1. I could perform additional query to obtain precipitation data in Oahu for the months of June and December using the codes below:
+```python
+June_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+list(June_precipitation)
+```
+
+``` python
+Dec_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+list(Dec_precipitation)
+```
+
+
+2. I could also perform additional query to obtain temperature data in Oahu for the months of June and December for each station.
  
 
