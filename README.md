@@ -30,7 +30,8 @@ The standard deviation for the temperature recordings for the month of june was 
 
 
 
-1. I could perform additional query to obtain precipitation data in Oahu for the months of June and December using the codes below:
+1. I could perform additional queries to obtain precipitation data in Oahu for the months of June and December using the two codes below:
+
 ```python
 June_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 list(June_precipitation)
@@ -40,12 +41,16 @@ list(June_precipitation)
 Dec_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 list(Dec_precipitation)
 ```
+The summary statistics of this analysis after the two results are converted to a dataframe is also shown below:
 
 ![image3](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_precipitation.png)
 
 
 ![image4](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_precipitation.png)
 
+These additional  queries help to obtain data which shows that the month of December had a higher  maximum precipitation of 6.42 compared to that of June which was 4.43. The average precipitations recorded for December was also higher (0.2168) compared to the average precipitation for  june (0.1364) 
+
+This helps to draw a more detailed conclusion that Oahu is colder and has more rains in December compared to June. However, the difference in the tempertaure and precipitation between June and December are not huge, which makes this business proposal more appealing.
 
 2. I could also perform additional query to obtain temperature data in Oahu for the months of June and December for each station.
  
