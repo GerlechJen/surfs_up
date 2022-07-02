@@ -41,6 +41,11 @@ Dec_precipitation = session.query(Measurement.date, Measurement.prcp).filter(ext
 list(Dec_precipitation)
 ```
 
+![image3](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_precipitation.png)
+
+
+![image4](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_precipitation.png)
+
 
 2. I could also perform additional query to obtain temperature data in Oahu for the months of June and December for each station.
  
