@@ -33,13 +33,13 @@ The standard deviation for the temperature recordings for the month of june was 
 1. I could perform additional queries to obtain precipitation data in Oahu for the months of June and December using the two codes below:
 
 ```python
-June_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
-list(June_precipitation)
+june_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+june_precipitation
 ```
 
 ``` python
-Dec_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
-list(Dec_precipitation)
+dec_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+dec_precipitation
 ```
 The summary statistics of this analysis after the two results are converted to a dataframe is also shown below:
 
