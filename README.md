@@ -13,15 +13,20 @@ The weather data has been stored in a SQLite database.
 Continuing further with the analysis, temperature data for the months of June and December in Oahu, were retrieved to determine if the surf and ice cream shop business will be  sustainable year-round.
 
 ## Results
-Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
 
 ![image1](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_temps_statistics.png)
 
 ![image2](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_temp_statistics.png)
 
 * From the analysis:
-* There were more number of temperatures recorded for the month of june (1700) than the month of december (1517)
+* There were more number of temperatures recorded for the month of june (1700) than the month of december (1517).
+* The average temperature recorded for the month of June(74.944) was higher than the average temperature recorded for December(71.042). 
+*  The maximum temperature recorded for the month of June(85) was higher than the maximum temperature recorded for December(83).
 
 ## Summary 
 
 Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+1. I could perform additional query on the precipitation recorded for the months of June and December)
+2. I could also perform additional query on the temperatures recorded for the months of june and december for each station.
+ 
+
