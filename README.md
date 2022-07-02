@@ -11,15 +11,18 @@ I finally used Flask to display the results of my analysis to the investor in a 
 Continuing further with the analysis, my investor wants more information about temperature trends before opening the surf shop. Specifically, he wants temperature data for the months of June and December in Oahu so he can determine whether the surf and shake shop business will be sustainable year-round.
 
 ## Results
+The summary statistics obtained fro the month of June is shown below:
 
 ![image1](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_temps_statistics.png)
 
+The summary statistics for December is also as seen below:
+
 ![image2](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_temp_statistics.png)
 
-* From the analysis:
+From the analysis:
 * There is a relatively small difference of about 3.9 °F between the average temperature in June and December.
-* The average temperature recorded for the month of June(74.944) was higher than the average temperature recorded for December(71.042). 
-* The highest temperatures recorded in the two months did not go beyond 85°F.
+* The maximum temperature recorded for the month of June(85°F) was greater than the maximum temperature recorded for December(83°F). 
+* The minimum temperature recorded for the month of June(64°F) was greater than the minimum temperature recorded for December(56°F). 
 
 ## Summary 
 
