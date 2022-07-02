@@ -31,7 +31,7 @@ The standard deviation for the temperature recordings for the month of june was 
 
 
 
-1. I could perform additional queries to obtain precipitation data in Oahu for the months of June and December using the two codes below:
+I could perform two additional queries to obtain **precipitation** data in Oahu for the months of June and December using the two codes below:
 
 ```python
 june_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
@@ -42,17 +42,16 @@ june_precipitation
 dec_precipitation = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 dec_precipitation
 ```
-The summary statistics of this analysis after the two results are converted to a dataframe is also shown below:
+The summary statistics obtained after the results of the queries are converted to a dataframe are shown below:
 
 ![image3](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_precipitation.png)
 
 
 ![image4](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_precipitation.png)
 
-These additional  queries help to obtain data which shows that the month of December had a higher  maximum precipitation of 6.42 compared to that of June which was 4.43. The average precipitations recorded for December was also higher (0.2168) compared to the average precipitation for  june (0.1364) 
+These additional  queries help to obtain results which show that the month of December had  more precipitation compared to the month of June. The maximum precipitation recorded in December was 6.42 and that of June was 4.43. The average precipitation recorded for December was also higher (0.2168) compared to that of june (0.1364) 
 
-This helps to draw a more detailed conclusion that Oahu is colder and has more rains in December compared to June. However, the difference in the tempertaure and precipitation between June and December are not huge, which makes this business proposal more appealing.
+Thus, a more detailed conclusion on the weather at Oahu in the months of June and December can be drawn. In December, the temperature at Oahu is clower with more rains while in June the temperature at Oahu is higher with fewer rains. However, the difference in the tempertaure and precipitation between June and December is not much, which makes Oahu a good destination for the surf and shake business. 
 
-2. I could also perform additional query to obtain temperature data in Oahu for the months of June and December for each station.
  
 
