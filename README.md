@@ -16,6 +16,10 @@ Continuing further with the analysis, temperature data for the months of June an
 Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
 * From the analysis 
 
+![image1](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_temps_statistics.png)
+
+![image2](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_temp_statistics.png)
+
 ## Summary 
 
 Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
