@@ -26,10 +26,7 @@ From the analysis:
 
 ## Summary 
 
-Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
-The standard deviation for the temperature recordings for the month of june was 3.257  while the standard deviation for the month of December was 3.746. This means that the temperature measurements for December are more spread out or vary more. While the temperature measurements for June are closer together in value.
-
-
+The standard deviation of the temperature recordings for the month of June was 3.257  while the standard deviation for the month of December was 3.746. This means that the temperature measurements for December vary more compared to the temperature measurements for June. Overall, there isn't much difference in the summary statistics of the two months which makes Oahu a good destination for the surf and shake business. 
 
 I could perform two additional queries to obtain **precipitation** data in Oahu for the months of June and December using the two codes below:
 
@@ -51,7 +48,4 @@ The summary statistics obtained after the results of the queries are converted t
 
 These additional  queries help to obtain results which show that the month of December had  more precipitation compared to the month of June. The maximum precipitation recorded in December was 6.42 and that of June was 4.43. The average precipitation recorded for December was also higher (0.2168) compared to that of june (0.1364) 
 
-Thus, a more detailed conclusion on the weather at Oahu in the months of June and December can be drawn. In December, the temperature at Oahu is clower with more rains while in June the temperature at Oahu is higher with fewer rains. However, the difference in the tempertaure and precipitation between June and December is not much, which makes Oahu a good destination for the surf and shake business. 
-
- 
-
+Thus, a more detailed conclusion on the weather at Oahu in the months of June and December can be drawn. In December, the temperature at Oahu is lower with more rains while in June the temperature at Oahu is higher with fewer rains. However, the difference in temperature and precipitation between June and December is not much.  
