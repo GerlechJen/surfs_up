@@ -14,11 +14,13 @@ Continuing further with the analysis, temperature data for the months of June an
 
 ## Results
 Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-* From the analysis 
 
 ![image1](https://github.com/GerlechJen/surfs_up/blob/main/Images/june_temps_statistics.png)
 
 ![image2](https://github.com/GerlechJen/surfs_up/blob/main/Images/december_temp_statistics.png)
+
+* From the analysis:
+* There were more number of temperatures recorded for the month of june (1700) than the month of december (1517)
 
 ## Summary 
 
