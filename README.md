@@ -48,4 +48,10 @@ The summary statistics obtained after the results of the queries are converted t
 
 These additional  queries help to obtain results which show that the month of December had  more precipitation compared to the month of June. The maximum precipitation recorded in December was 6.42 and that of June was 4.43. The average precipitation recorded for December was also higher (0.2168) compared to that of june (0.1364) 
 
-Thus, a more detailed conclusion on the weather at Oahu in the months of June and December can be drawn. In December, the temperature at Oahu is lower with more rains while in June the temperature at Oahu is higher with fewer rains. However, the difference in temperature and precipitation between June and December is not much so the surf and shake shop will be sustainable year-round.  
+Thus, a more detailed conclusion on the weather at Oahu in the months of June and December can be drawn. In December, the temperature at Oahu is lower with more rains while in June the temperature at Oahu is higher with fewer rains. However, the difference in temperature and precipitation between June and December is not much so the surf and shake shop will be sustainable year-round. 
+
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
